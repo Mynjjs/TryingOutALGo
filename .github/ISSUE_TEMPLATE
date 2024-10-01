@@ -1,0 +1,21 @@
+name: Issue in TryingoutALGO
+description: File an issue with the thing. 
+body:
+  - type: markdown
+    attributes:
+      value: "## Thanks for reporting an issue"
+  - type: textarea
+    attributes:
+      label: "Explain the issue"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: "What kind of issue is this?"
+      description: "This is a description to help you understand"
+      multiple: true
+      options:
+        - type1
+        - type2
+        - not sure
+
